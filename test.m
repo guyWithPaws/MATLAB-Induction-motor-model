@@ -1,3 +1,3 @@
 syms x;
-f = sin(x)*cos(x);
-taylor(f)
+f = sin(x^2);
+solve(f == 1/2, x)
